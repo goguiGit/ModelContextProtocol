@@ -13,4 +13,3 @@ public static class SumTools
         return (a + b).ToString();
     }
 }
-
