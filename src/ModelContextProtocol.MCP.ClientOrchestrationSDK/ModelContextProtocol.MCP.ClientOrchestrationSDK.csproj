@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.Hosting" />
+		<PackageReference Include="Microsoft.SemanticKernel.Agents.Abstractions" />
+		<PackageReference Include="Microsoft.SemanticKernel.Agents.Core" />
+		<PackageReference Include="Microsoft.SemanticKernel.Agents.Orchestration" />
+		<PackageReference Include="Microsoft.SemanticKernel.Agents.Runtime.InProcess" />
+		<PackageReference Include="ModelContextProtocol-SemanticKernel" />
+	</ItemGroup>
+
+</Project>
