@@ -1,7 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
+
   <ItemGroup>
-    <PackageReference Update="Microsoft.Extensions.Configuration.UserSecrets" Version="9.0.8" />
-    <PackageReference Update="Microsoft.Extensions.Options" Version="9.0.8" />
-    <PackageReference Update="Microsoft.SemanticKernel" Version="1.64.0" />
+    <PackageReference Include="Microsoft.SemanticKernel" />
+    <PackageReference Include="Microsoft.SemanticKernel.Connectors.AzureOpenAI" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" />
   </ItemGroup>
 </Project>
