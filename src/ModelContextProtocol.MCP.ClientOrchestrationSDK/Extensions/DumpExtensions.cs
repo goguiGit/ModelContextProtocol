@@ -6,4 +6,11 @@ public static class DumpExtensions
     {
         Console.WriteLine(obj?.ToString() ?? "null");
     }
+
+    public static void Dump<T>(this T obj, string title)
+    {
+        Console.WriteLine($"--- {title} ---");
+        Console.WriteLine(obj?.ToString() ?? "null");
+        Console.WriteLine($"--- End of {title} ---");
+    }
 }

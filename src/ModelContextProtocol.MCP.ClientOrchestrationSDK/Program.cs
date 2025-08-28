@@ -54,7 +54,7 @@ var translatorAgentKernel = builder.Build();
 ChatCompletionAgent translatorAgent = new()
 {
     Name = "Translator",
-    Instructions = "You are a translator. You handle tasks related to langauges processing.",
+    Instructions = "You are a translator. You handle tasks related to languages processing.",
     Kernel = translatorAgentKernel,
     Description = "Translator that translate given text into languages.",
     Arguments = new KernelArguments(settings)
